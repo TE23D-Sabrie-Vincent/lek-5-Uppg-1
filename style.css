@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    padding: 10px;
+    background-color: aliceblue;
+}
