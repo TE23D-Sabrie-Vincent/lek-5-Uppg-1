@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rubrik{
+    /* justify-content:
+    flex-end; */
+    padding-left: 60px;
+    padding-right: 60px;
+    border: solid 2px black;
+    background-color: aliceblue
+    
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -5,9 +21,36 @@
 
 .div-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border: 3px solid red;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: beige;
+}
+
+.div-mellan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid orange;
+    padding: 50px;
+    margin-top: 10px;
+    /* Margin-top är snyggare */
+}
+
+.rubrik_v, .rubrik_h {
+    width: 49%;
+    min-width: 49%;
+    padding: 25px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.rubrik_v {
+    background-color: yellow;
+}
+
+.rubrik_h {
+    background-color: pink;
 }
